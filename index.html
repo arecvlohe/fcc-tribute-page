@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/wingcss" />
+    <link rel="stylesheet" href="styles.css">
+    <title>FCC Tribute Page</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Paying Homage to Functional Programming</h1>
+          <p>First let's begin with a quote from the source of all truth, Wikipedia, on what functional programming is.</p>
+          <pre class='quote'>
+  "In computer science, functional programming is a programming paradigm—
+  a style of building the structure and elements of computer programs—
+  that treats computation as the evaluation of mathematical functions and 
+  avoids changing-state and mutable data."
+  
+  -- Wikipedia
+          </pre>
+          <p>The aim of functional programming, at least from my understanding, is to make programs more predicatable and therefore
+            less bug prone. This is achieved through a strict set of principles and concepts. Some ideas and concepts that
+            you will hear when discuccing functional programming are:
+          </p>
+          <h4>Data is Immutable</h4>
+          <p>
+            Data in functional programming languages is immutable. Meaning, you can't change an array in place. You instead transform
+            those values and place them inside of a new array, essentially creating a copy but with the values updated.
+          </p>
+          <h4>Functions Are Pure</h4>
+          <p>
+            You will hear quite often that functions are pure in functional programming languages. This means the function contains no
+            side-effects. Instead functions are only intended to be I/O, input/output, workers. This generally means that
+            when a function is given some input, you can expect a certain output. Side-effects, such as logging to the console,
+            are handled in a manner separate from the logic of the function. This is critical since creating pure functions
+            is what makes your programs more predicatable, and as a side-effect :), more testable.
+          </p>
+          <h4>Algabraic Data Types (ADTs)</h4>
+          <p>Functional programming is the convergence of math and programming. This is why you will hear a lot about terms
+            that have been developed in the math field now part of your programming lexicon. You will probably hear terms
+            like: monad, monoid, functor, endofunctor, and so on. This isn't intended to scare beginners away but instead
+            used to reinforce and continue to use the concepts that math has solidified with proofs and peer reviewed papers.
+          </p>
+          <p>This is just the tip of the iceberg when it comes to learning about functional programming.</p>
+          <p>To learn more, visit these links:</p>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Functional_programming" target="_blank">Functional Progamming on Wikipedia</a></li>
+            <li><a href="https://www.haskell.org/" target="_blank">Haskell - A Purely FP Language</a></li>
+            <li><a href="http://elm-lang.org/" target="_blank">Elm - An FP Language That Runs in the Browser</a></li>
+            <li><a href="http://www.purescript.org/" target="_blank">PureScript - An FP Language that Runs in the Browser and on the Server</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
